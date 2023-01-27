@@ -1,6 +1,6 @@
 array = []
-for (let i = 0; i < 20; i++) {
-    array.push(Math.round(Math.random() * 20))
+for (let i = 0; i < 100000; i++) {
+    array.push(Math.round(Math.random() * 1000))
 }
 
 console.log(array)
