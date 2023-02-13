@@ -4,7 +4,7 @@ const array = []
 for (let i = 0; i < 10; i++) {
     array.push(Math.round(Math.random() * 100))
 }
-console.log(array)
+// console.log(array)
 
 const mergeSort = function merge(array, reverse = false) {
     if (array.length <= 1) {
@@ -39,4 +39,5 @@ const mergeSort = function merge(array, reverse = false) {
     return sorted_array
 }
 
-console.log(mergeSort(array, false))
+// console.log(mergeSort(array, false))
+module.exports = {mergeSort}
