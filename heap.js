@@ -15,7 +15,7 @@ class Heap {
 
     add(value) {
         if (this.rootNode === null) {
-            this.lastNode = new Node(value = value)
+            this.lastNode = new Node( value)
             this.rootNode = this.lastNode
         } else {
             const oldLast = this.lastNode
